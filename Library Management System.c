@@ -70,7 +70,7 @@ int isValidEmail(const char *email, const char *domain) {
 
 void registerAdmin(struct Admin *admin) {
     int emailValid = 0;
-    char adminDomain[] = "@admin.diu.edu.bd";
+    char adminDomain[] = "@admin.diu.edu.bd";// as this code is for daffodil international university
 
     do {
         printf("\nEnter admin email for registration: ");
@@ -101,7 +101,7 @@ void registerAdmin(struct Admin *admin) {
 
 void registerUser(struct User *user) {
     int emailValid = 0;
-    char userDomain[] = "@diu.edu.bd";
+    char userDomain[] = "@diu.edu.bd";// as this code is for daffodil international university
 
     do {
         printf("\nEnter user email for registration: ");
